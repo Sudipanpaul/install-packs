@@ -9,6 +9,18 @@ install.packages(c("mrMLM", "dplyr", "CMplot", "bestNormalize", "tidyr", "plyr",
                    "RColorBrewer", "crayon", "stringr", "berryFunctions", "imager", 
                    "yhat", "shiny", "shinythemes", "corrplot", "augmentedRCBD", "lme4", 
                    "data.table", "ggfortify", "extrafont", "stats", "psych"))
+
+
+
+#new for minicore, qtl mapping
+install.packagesc(("corehunter", "qtl", "LinkageMapview"))
+
+# QTLseq
+devtools::install_github("bmansfeld/QTLseqr")
+library(QTLseqr)
+
+
+
 library(mrMLM)
 library(dplyr)
 library(CMplot)
