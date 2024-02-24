@@ -13,7 +13,7 @@ install.packages(c("mrMLM", "dplyr", "CMplot", "bestNormalize", "tidyr", "plyr",
 
 
 #new for minicore, qtl mapping
-install.packagesc(("corehunter", "qtl", "LinkageMapview"))
+install.packages(c("corehunter", "qtl", "LinkageMapview"))
 
 # QTLseq
 devtools::install_github("bmansfeld/QTLseqr")
