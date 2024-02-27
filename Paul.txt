@@ -22,6 +22,10 @@ install.packages(c("corehunter", "qtl", "LinkageMapview"))
 
 # QTLseq
 devtools::install_github("bmansfeld/QTLseqr")
+
+
+
+
 library(QTLseqr)
 
 
@@ -55,3 +59,14 @@ library(ggfortify)
 library(extrafont)
 library(stats)
 library(psych)
+library(SNPRelate)
+library(gdsfmt)
+library(treeio)
+library(ggtree)
+library(rJava)
+library(devtools)
+library(Rcpp)
+library(BiocManager)
+library(corehunter)
+library(qtl)
+library(LinkageMapview)
