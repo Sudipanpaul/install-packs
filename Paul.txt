@@ -10,6 +10,11 @@ install.packages(c("mrMLM", "dplyr", "CMplot", "bestNormalize", "tidyr", "plyr",
                    "yhat", "shiny", "shinythemes", "corrplot", "augmentedRCBD", "lme4", 
                    "data.table", "ggfortify", "extrafont", "stats", "psych"))
 
+install.packages("corehunter")
+BiocManager::install("SNPRelate")
+BiocManager::install("gdsfmt")
+BiocManager::install("treeio")
+BiocManager::install("ggtree")
 
 
 #new for minicore, qtl mapping
