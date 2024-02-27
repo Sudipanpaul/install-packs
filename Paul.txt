@@ -18,7 +18,7 @@ BiocManager::install("ggtree")
 
 
 #new for minicore, qtl mapping
-install.packages(c("corehunter", "qtl", "LinkageMapview"))
+install.packages(c("corehunter", "qtl", "LinkageMapView"))
 
 # QTLseq
 devtools::install_github("bmansfeld/QTLseqr")
@@ -69,4 +69,4 @@ library(Rcpp)
 library(BiocManager)
 library(corehunter)
 library(qtl)
-library(LinkageMapview)
+library(LinkageMapView)
