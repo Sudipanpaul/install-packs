@@ -21,6 +21,7 @@ BiocManager::install("ggtree")
 install.packages(c("corehunter", "qtl", "LinkageMapView"))
 
 # QTLseq
+install.packages("remotes")
 devtools::install_github("bmansfeld/QTLseqr")
 
 
